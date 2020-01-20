@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: thinning-py3
+Version: 1.2.3
+Summary: C extension for thinning binary images.
+Home-page: https://github.com/tastyminerals/thinning_py3.git
+Author: Adrian Neumann
+Author-email: adrian_neumann@gmx.de
+License: BSD
+Description: Guo and Hall thinning algorithm
+        ===============================
+        
+        This is a Python 3 module of Guo and Hall* thinning algorithm implemented in C.
+        
+        Thinning is the operation that takes a binary image and contracts the foreground until only single-pixel wide lines remain. It is also known as skeletonization. This package implements the thinning algorithm by Guo and Hall* for Numpy arrays. It is thus compatible with OpenCV. The algorithm is implemented in C and fairly fast.
+        
+        *[paper](http://dx.doi.org/10.1145/62065.62074)
+        
+Keywords: image processing,thinning,guo hall,skeletonization
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: C
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
